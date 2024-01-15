@@ -47,7 +47,7 @@ public class Baseclass {
 			System.out.println("browser property is not defined");
 			return;
 		}
-
+         System.out.println();
 		browserName = browserName.toLowerCase();
 		
 		switch ("chrome") {
