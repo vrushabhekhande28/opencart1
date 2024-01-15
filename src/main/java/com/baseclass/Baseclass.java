@@ -47,14 +47,16 @@ public class Baseclass {
 			System.out.println("browser property is not defined");
 			return;
 		}
-
+         System.out.println();
 		browserName = browserName.toLowerCase();
 		
 		switch ("chrome") {
 		case "chrome":
                ChromeOptions options = new ChromeOptions();
                 options.addArguments("--remote-allow-origins=*");
-                			
+                		
+                
+                
 			driver = new ChromeDriver(options);
 			break;
 
