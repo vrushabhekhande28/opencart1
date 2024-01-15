@@ -54,7 +54,9 @@ public class Baseclass {
 		case "chrome":
                ChromeOptions options = new ChromeOptions();
                 options.addArguments("--remote-allow-origins=*");
-                			
+                		
+                
+                
 			driver = new ChromeDriver(options);
 			break;
 
